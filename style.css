@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+}
+
+.navMenu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #fddb3a;
+}
+
+.parallax {
+	max-width: 100%;
+	background-image: url(imagens/coffe.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 80%;
+}
+
+.parallax-menu{
+	width: 100%;
+	background-image: url(imagens/parallaxm.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 20%;
+
+}
+
+.parallax-menu h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: snow;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 60px;
+	left: 80px;
+}
+
+.parallax2 {
+	background-image: url(imagens/parallax1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.parallax2 p {
+	font-family: 'Montserrat', sans-serif;
+	color: snow;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.0em;
+	line-height: 250px;
+}
+
+.parallax h1 {
+	text-transform: uppercase;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: snow;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.menu {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	margin: 2rem auto;
+	flex-wrap: wrap;
+}
+
+.desc-menu{
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  border: 1px solid black;
+  height: 350px
+}
+
+.name-menu{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.name-menu p {
+	padding: 20px;
+}
+
+.contato {
+	width: 50%;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #341D02;
+	color: snow;
+	border: 1px solid black;
+
+}
+
+.coffe {
+	width: 50%;
+	height: 300px;
+	background-image: url(imagens/painel.jpg);
+	background-position: right;
+	background-size: cover;
+	border: 1px solid black;
+}
+
+.painel {
+	display: flex;
+	justify-content: flex-end;
+	border: 2px solid black;
+}
+
+.avaliacoes{
+	display: flex;
+	margin: 2rem auto;
+	flex-wrap: wrap;
+}
+
+.descricao{
+ margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+
+.img-review {
+	margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.img-review img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+	object-fit: cover;
+}
+
+.menu-price {
+font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 40px;
+	height: 40px;
+	width: 120px;
+	display: flex;
+	align-items: center;                  
+	justify-content: center;
+	background-color: snow;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-price:hover {
+	background-color: red;
+}
+
+.menu-price a {
+	text-align: center;
+	text-decoration: none;
+}
+
+.name-menu img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: 0 0px 25px rgba(0, 0, 0, .25);
+}
+
+.rating {
+  color: rgb(253, 180, 42);
+  margin: 1rem 0;
+}
+
+.rating2 {
+  color: rgb(253, 180, 42);
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.text-review{
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 200;
+}
+
+.body-review{
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+  border: 1px solid black;
+}
+
+.titulo-av{
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px;
+}
+
+.galery {
+	display: inline-grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	border: 1px solid black;
+	height: 600px;
+	width: 100%;
+}
+
+.photos {
+	border: 1px solid black;
+	height: 300px;
+	width: 100%;
+}
+
+.menu-food {
+	display: inline-grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	border: 1px solid black;
+	height: 600px;
+	width: 100%;
+}
+
+.products-food {
+	border: 1px solid black;
+	height: 450px;
+	width: 100%;
+}
+
+.products-food span {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+	margin-top: 20px;
+	height: 40px;
+	width: 120px;
+	display: flex;
+	align-items: center;                  
+	justify-content: center;
+	background-color: snow;
+	font-weight: bold;
+}
+
+.products-food span:hover{
+	background-color: red;
+}
+
+.products-food h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.menu-text {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+.products-food p {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.products-food img {
+	background-position: bottom;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+h4 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+.camera {
+	color: snow;
+	border: 1px solid red;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	margin-right: 20px;
+}
+
+.photos img {
+	background-position: bottom;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+footer {
+	margin-top: 50px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	color: black;
+
+}
+
+.footer-menu{
+	margin-top: 380px;
+}
+
+.footer-menu2{
+	margin-top: 180px;
+}
+
+
+.row {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr ;
+	align-items: center;
+	color: snow;
+}
+
+.hour {
+	letter-spacing: 1px;
+}
+
+.social-menu{
+	text-align: center;
+}
+
+.social-menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 15px;
+	list-style: none;
+}
+
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social-menu ul li a:hover{
+	transform: translate(0, -10px);
+}
+
+.copy {
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	text-align: center;
+	color: snow;
+}
+
+.icons-contact {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+	padding-top: 80px;
+}
+
+.desc-contact {
+	padding-top: 30px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+.desc-contact p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: snow;
+}
+
+.desc-contact a {
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	color:  #1C1C1C;
+	font-weight: 900;
+}
+
+.fa-brands {
+	font-size: 40px;
+}
+
+.fa-solid {
+	font-size: 40px;
+}
+
+.box {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	margin-top: 40px;
+}
+
+section img#wesley{
+	height: 200px;
+	width: 200px;
+	border-radius: 150px;
+	z-index: 2;
+}
+
+#text {
+	display: block;
+	font-family: 'Josefin Sans', sans-serif;
+	color: black;
+	letter-spacing: 30px;
+	font-weight: 100;
+	font-size: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 30px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	color: black;
+	}
+
+	.desc-sobre {
+	color: black;
+	width: 800px;
+	height: 200px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	margin-top: 200px;
+}
+
+.introduction {
+	padding-top: 120px;
+}
